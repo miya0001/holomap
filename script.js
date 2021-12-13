@@ -31,4 +31,8 @@
 
             }
         });
+
+        setInterval(() => {
+            map.rotateTo( map.getBearing() + 1 )
+        }, 100)
     });
